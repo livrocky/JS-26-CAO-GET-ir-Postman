@@ -1,0 +1,43 @@
+body {
+  font-family: "Open Sans", serif;
+  background-color: rgb(37, 180, 224);
+}
+
+button {
+  cursor: pointer;
+}
+/* 
+input,
+textarea {
+  color: #1d1d1d;
+  background-color: rgb(218, 218, 218);
+  font-family: inherit;
+  font-size: inherit;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  display: block;
+} */
+
+input {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.container {
+  max-width: 1700px;
+  margin: 0 auto;
+  display: flex;
+  /* padding: 0 50px; */
+}
+
+@media screen and (max-width: 950px) {
+  /* taisykles kurios galioja nuo 0 iki 950px */
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
