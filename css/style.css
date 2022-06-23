@@ -121,3 +121,111 @@ input {
 button {
   margin-top: 20px;
 }
+
+
+.skillBar{
+  width: 100%;
+  border: 1px solid tomato;
+  border-radius: 1rem;
+  padding: 0.15rem;
+}
+
+.skillTitle{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* SKILL BARS */
+
+.jsSkillProgress{
+  height: 0.7rem;
+  width: 95%;
+  border: none;
+  background-color: blueviolet;
+  border-radius: 1rem;
+}
+
+.jsSkillPercentage{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  /* margin-right: 9.5%; */
+  padding-bottom: 0.1rem;
+}
+
+/*******************/
+
+.phpSkillProgress{
+  height: 0.7rem;
+  width: 85%;
+  border: none;
+  background-color: blueviolet;
+  border-radius: 1rem;
+}
+
+.phpSkillPercentage{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  /* margin-right: 9.5%; */
+  padding-bottom: 0.1rem;
+}
+
+/*******************/
+
+.cssSkillProgress{
+  height: 0.7rem;
+  width: 100%;
+  border: none;
+  background-color: blueviolet;
+  border-radius: 1rem;
+}
+
+.cssSkillPercentage{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  /* margin-right: 9.5%; */
+  padding-bottom: 0.1rem;
+}
+
+/*******************/
+
+.twigSkillProgress{
+  height: 0.7rem;
+  width: 75%;
+  border: none;
+  background-color: blueviolet;
+  border-radius: 1rem;
+}
+
+.twigSkillPercentage{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  /* margin-right: 9.5%; */
+  padding-bottom: 0.1rem;
+}
+
+/*******************/
+
+.perlSkillProgress{
+  height: 0.7rem;
+  width: 90%;
+  border: none;
+  background-color: blueviolet;
+  border-radius: 1rem;
+}
+
+.perlSkillPercentage{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  /* margin-right: 9.5%; */
+  padding-bottom: 0.1rem;
+}
