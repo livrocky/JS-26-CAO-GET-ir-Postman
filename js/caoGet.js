@@ -36,3 +36,5 @@
 
 //   return divEl;
 // }
+
+// ATKOMENTUOK VISA FAILA JEI REIKAI INDEX FAILO SU FETCHU //
